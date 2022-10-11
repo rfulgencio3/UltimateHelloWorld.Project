@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.32912.340
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F7F81A3-5F6E-4E0D-9153-60DAE2C76836}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateHelloWorld.Console", "src\UltimateHelloWorld.Console\UltimateHelloWorld.Console.csproj", "{D1BCF030-0188-466D-A8A6-8F46116B4BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltimateHelloWorld.Console", "src\UltimateHelloWorld.Console\UltimateHelloWorld.Console.csproj", "{D1BCF030-0188-466D-A8A6-8F46116B4BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateHelloWorld.Library", "src\UltimateHelloWorld.Helper\UltimateHelloWorld.Library.csproj", "{69708DC5-3AC7-4676-ACFC-5401AC67CCAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{D1BCF030-0188-466D-A8A6-8F46116B4BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1BCF030-0188-466D-A8A6-8F46116B4BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1BCF030-0188-466D-A8A6-8F46116B4BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69708DC5-3AC7-4676-ACFC-5401AC67CCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69708DC5-3AC7-4676-ACFC-5401AC67CCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69708DC5-3AC7-4676-ACFC-5401AC67CCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69708DC5-3AC7-4676-ACFC-5401AC67CCAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1BCF030-0188-466D-A8A6-8F46116B4BE8} = {1F7F81A3-5F6E-4E0D-9153-60DAE2C76836}
+		{69708DC5-3AC7-4676-ACFC-5401AC67CCAF} = {1F7F81A3-5F6E-4E0D-9153-60DAE2C76836}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5729E856-1AEE-4A41-B5ED-23ACE5B01F95}
